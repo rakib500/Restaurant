@@ -1,0 +1,432 @@
+@media (max-width:1200px) {
+  .menu-wrap ul li {
+	margin-right: 10px;
+	
+	}
+	 .menu-wrap ul li a{
+	 	font-size: 14px;
+	 }
+
+}
+@media (max-width:1150px) {
+	.menu-section::before {
+    display: none;
+}
+	.service-section::before {
+    display: none;
+}
+  .search-form input {
+    height: 60px;
+    width: 600px;
+    padding: 0 20px;
+    margin-left: 90px;
+    font-size: 18px;
+    
+}
+.testimonial-section::after{
+	display: none;
+}
+.testimonial-section::before{
+	display: none;
+}
+.recomand-img-1 .image-tittle h1 {
+    font-size: 42px;
+}
+}
+@media (max-width:1060px) {
+	.Subscribe-inner input {
+    width: 60%;
+}
+
+}
+
+@media (max-width:900px) {
+ .tittle-bg{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+}
+.tittle-bg h2{
+	font-size: 45px;
+	font-family: 'Cookie',cursive;
+}
+.tittle-bg h1{
+	font-size: 45px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 900;
+}
+.breadcrumb{
+	margin-left:23px;
+}
+
+}
+
+@media (max-width: 840px) {
+  .chef-contact h2 {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 890px) {
+.carousel-caption h5 {
+    font-size: 58px;
+}
+.carousel-caption h1 {
+    font-size: 52px;
+}
+.carousel-caption p {
+    font-size: 13px;
+}
+.carousel-item{
+	height: 780px;
+}
+.carousel-item img{
+	width: 100%;
+	height: 780px;
+}
+.recomand-img-1 .image-tittle h1 {
+    font-size: 36px;
+}
+
+.contact-sidebar-section{
+	margin-top: 90px;
+}
+
+}
+
+@media (max-width:775px) {
+.cart-tools{
+	top: 50px;
+}
+.menu-list:hover .cart-tools {
+    top:80px; 
+}
+
+.logo{
+	margin-top: 30px;
+}
+.logo h2{
+	font-size: 25px;
+	margin-bottom: 0;
+}
+.nav-active{
+	border-radius: 0;
+}
+.open-menu{
+	display: block;
+}
+.menu-wrap{
+    position:fixed;
+    height: 100%;
+    width: 60%;
+    background: black;
+    top: 0;
+    left: -200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.menu-wrap.active-menu{
+	opacity: 1;
+	left: 0;
+	visibility: visible;
+	transition: .5s;
+
+}
+
+.menu-wrap ul li{
+	display: block;
+	text-align:center;
+	font-size: 20px;
+	padding:6px 0;
+}
+.open-menu{
+		background-color: #000;
+		height: 35px;
+		width: 35px;
+		text-align: center;
+		line-height: 33px;
+		position: relative;
+		top: -35px;
+		float: right;
+		margin-right: 0;
+		cursor: pointer;
+	}
+
+
+.nav-pills .nav-item{
+	width: calc(100%/3);
+	text-align: center;
+}
+.nav-main{
+	margin-top: 0;
+	padding: 0;
+
+}
+.hero-context h1{
+	font-size: 60px;
+}
+.hero-context h2{
+	font-size: 60px;
+}
+.section-tittle h1{
+	font-size: 37px;
+}
+.rw-2{
+		margin-top: 0;
+	}
+	.gallery-section .item{
+		margin-top: 20px;
+	}
+.reservation-info .main-heading h2 {
+	font-size: 20px;
+}
+.search-form input {
+    height: 50px;
+    width: 450px;
+    padding: 0 20px;
+    margin-left: 90px;
+    font-size: 18px;
+    
+}
+.search-form button {
+    height: 50px;
+    width: 70px;
+}
+.portfoilo-section .item{
+	margin-top:20px;
+}
+.reservation-info .main-heading h1 {
+    font-size: 52px;
+    margin-top: -10px;
+   
+}
+.reservation-info .main-heading h2 {
+    font-size: 50px;
+    font-family: 'Cookie',cursive;
+    opacity: .6;
+    margin-bottom: 0 !important;
+}
+.reservation-info .sub-heading p{
+	font-size: 15px;
+}
+.reservation-info .sub-heading span{
+	font-size: 14px;
+}
+.reserve-btn {
+    padding: 13px 20px;
+    margin-bottom: 40px;
+}
+.reservation-info .contact-info li {
+   
+    font-size: 14px;
+}
+.offer-section .content-box h1 {
+    font-size: 50px;
+    margin-top:0px;
+}
+.offer-section .content-box h2 {
+    font-size: 42px;
+}
+.offer-section .content-box p {
+    font-size: 14px;
+}
+.carousel-control-prev{
+display: none;
+}
+.carousel-control-next{
+display: none;	
+}
+.recomand-space{
+	margin-top: 15px;
+}
+
+
+}
+@media (max-width:590px) {
+.carousel-caption h5 {
+    font-size: 58px;
+    text-align: center;
+}
+.carousel-caption h1 {
+    font-size: 52px;
+    text-align: center;
+}
+.carousel-caption p {
+    font-size: 13px;
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+.btn-slider-2 {
+    margin-left:0px;
+    margin-top: 10px;
+}
+.carousel-item{
+	height: 650px;
+}
+.carousel-item img{
+	width: 100%;
+	height: 650px;
+}
+
+.inner-column h1 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+.inner-column .price {
+    font-size: 50px;
+}
+.price sub {
+    position: relative;
+    font-size: 18px;
+    margin-left: 42px;
+    display: block;
+    font-weight: 300;
+}
+.price sup {
+    position: relative;
+    font-size: 30px;
+}
+.order-offer li {
+    font-size: 13px;
+    top: -10px;
+}
+.pizza-extra {
+    padding: 13px 20px;   
+}
+.inner-column .offer {
+    font-size: 18px;
+}
+	.search-form input {
+	    height: 50px;
+	    width: 350px;
+	    padding: 0 20px;
+	    margin-left: 70px;
+	    font-size: 18px;
+	    
+	}
+	.Subscribe-inner button{
+		width: 100%;
+		top:20px;
+		left: 0;
+	}
+	.Subscribe-inner input{
+		width: 100%;
+		
+	}
+	.scroll-top-button{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+}
+@media (max-width:490px){
+.menu-bg-section .tittle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+
+}
+.menu-bg-section .tittle h2{
+	font-size: 
+}
+.blog-bg-section .tittle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+
+}
+.breadcrumb{
+	text-align: center;
+}
+	.hero-context h1{
+		font-size: 40px;
+	}
+	
+	.hero-context h2{
+		font-size: 40px;
+	}
+	.hero-context p{
+		font-size: 14px;
+	}
+	.section-tittle h1{
+	font-size: 33px;
+}
+
+.search-form input {
+	    height: 50px;
+	    width: 280px;
+	    padding: 0 20px;
+	    margin-left: 50px;
+	    font-size: 18px;
+	    
+	}
+	.search-form button {
+    height: 50px;
+    width: 50px;
+    top: -2px;
+    left: -50px;
+    
+}
+.search-form button {
+    height: 50px;
+    width: 70px;
+    top: .3px;
+
+}
+.offer-section .content-box h1 {
+    font-size: 40px;
+    margin-top:0px;
+}
+.offer-section .content-box h2 {
+    font-size: 37px;
+}
+.offer-section .content-box p {
+    font-size: 14px;
+}
+.offer-section ul .store-2 {
+    margin-left:0px;
+}
+}
+@media (max-width:400px){
+.btn-contact-form a{
+	padding:15px 20px;
+	font-size: 11px;
+}
+.search-form input {
+	    height: 44px;
+	    width: 230px;
+	    padding: 0 20px;
+	    margin-left: 50px;
+	    font-size: 10px;
+	    
+	}
+	.search-form button {
+    height: 45px;
+    width: 70px;
+    top: 1px;
+
+}
+.recomand-img-1 .image-tittle h1 {
+    font-size: 37px;
+}
+}
+@media (max-width:350px){
+  .hh{
+  	margin-left: 0;
+  }
+}
